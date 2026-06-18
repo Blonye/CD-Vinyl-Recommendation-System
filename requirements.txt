@@ -1,0 +1,15 @@
+# Core dependencies
+torch>=1.9.0
+numpy>=1.19.0
+pandas>=1.2.0
+scikit-learn>=0.24.0
+scipy>=1.6.0
+joblib>=1.0.0
+
+# For the Gradio web interface
+gradio>=3.0.0
+plotly>=5.0.0
+
+# Optional (only if you want to re-run training, not needed for inference)
+# implicit>=0.7.0
+# lightfm>=1.15

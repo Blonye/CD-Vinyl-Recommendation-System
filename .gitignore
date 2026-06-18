@@ -1,0 +1,9 @@
+# Ignore the data folder entirely because it contains a 926MB file
+data/
+
+# Ignore the models folder because it contains heavy model weights
+models/
+
+# Ignore python cache files
+__pycache__/
+*.pyc
