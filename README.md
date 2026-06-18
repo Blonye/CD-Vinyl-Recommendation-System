@@ -3,6 +3,7 @@
 A Two-Tower neural recommender trained on Amazon 5-core CDs & Vinyl (2023 dataset).  
 Given a user ID, the system recommends top-10 CDs/vinyls based on purchase history and item features (genre, artist, price, etc.).
 You may train and use the model locally, or navigate to our website: https://huggingface.co/spaces/wes1612/CD_Vinyl_Recommendation.
+The trained models are available in our latest release.
 ---
  
 ## 📦 What's Included
