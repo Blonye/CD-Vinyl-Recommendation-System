@@ -19,7 +19,7 @@ def train_bpr(data, factors=64, lr=0.01, reg=0.01, iterations=100):
         verify_negative_samples=True,
         random_state=42
     )
-    # implicit requires (items × users) — transpose the (users × items) matrix
+
     model.fit(data['train_binary'])
     return model
 
