@@ -1,16 +1,3 @@
----
-title: CD & Vinyl Recommendation
-emoji: 🎵
-colorFrom: indigo
-colorTo: purple
-sdk: gradio
-sdk_version: 4.36.1
-app_file: app.py
-python_version: 3.11
-pinned: false
-short_description: Two-Tower recommender for Amazon CDs & Vinyl
----
-
 # 🎵 CD & Vinyl Recommendation System
  
 A Two-Tower neural recommender trained on Amazon 5-core CDs & Vinyl (2023 dataset).  
@@ -103,7 +90,10 @@ Your default browser will open automatically at `http://127.0.0.1:7860`.
 ├── requirements.txt       # Python dependencies
 └── README.md              # This file
 ```
+
 ⚠️Due to their large size, the `models/` directory is available in the release assets(see the link in the Releases section), and the `data/` directory is not included. Only the `src/` folder and training scripts are present in this repository.
+
+
 ---
  
 ## ⚠️ Troubleshooting
